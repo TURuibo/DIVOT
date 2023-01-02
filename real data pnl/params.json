@@ -1,0 +1,33 @@
+{	
+	"exp_type":"crv",
+	"seed": 92,
+	"resolution" : 0.05,
+	"test_resolution" : 0.05,
+	"npos" : 100,
+	"nrep": 50,
+	"std": 2.0,
+	"theta_H":  1.0,
+	"epoches_f": 10,
+	"epoches_pnl": 10,
+
+	"beta": 0.0,
+	"decay": 0.0,
+	"network_structure":[1,1],
+	"learning_rate": 0.0,
+
+	"epoches_c":400,
+	"lr_min_c":0.0001,
+	"lr_max_c":0.001,
+	"steps_per_cycle_c":400,
+	"pnl_lr_min_c":0.0001,
+	"pnl_lr_max_c":0.001,
+	"pnl_steps_per_cycle_c":400,
+
+	"epoches_rv":400,
+	"lr_min_rv":0.00001,
+	"lr_max_rv":0.0005,
+	"steps_per_cycle_rv":400,
+	"pnl_lr_min_rv":0.00001,
+	"pnl_lr_max_rv":0.0005,
+	"pnl_steps_per_cycle_rv":400
+}
